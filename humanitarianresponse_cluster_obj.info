@@ -5,3 +5,33 @@ package = Humanitarianresponse
 version = 7.x-1.0
 project = humanitarianresponse_cluster_obj
 features[features_api][] = api:1
+dependencies[] = autosave
+dependencies[] = ctools
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = humanitarianresponse_clusters
+dependencies[] = options
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+features[field][] = node-cluster_objectives-field_cluster
+features[field][] = node-cluster_objectives-field_obj_desc
+features[node][] = cluster_objectives
+features[variable][] = autosave_cluster_objectives
+features[variable][] = comment_anonymous_cluster_objectives
+features[variable][] = comment_cluster_objectives
+features[variable][] = comment_default_mode_cluster_objectives
+features[variable][] = comment_default_per_page_cluster_objectives
+features[variable][] = comment_form_location_cluster_objectives
+features[variable][] = comment_preview_cluster_objectives
+features[variable][] = comment_subject_field_cluster_objectives
+features[variable][] = menu_options_cluster_objectives
+features[variable][] = menu_parent_cluster_objectives
+features[variable][] = node_options_cluster_objectives
+features[variable][] = node_preview_cluster_objectives
+features[variable][] = node_submitted_cluster_objectives
+features[views_view][] = cluster_objectives
+
+
+
