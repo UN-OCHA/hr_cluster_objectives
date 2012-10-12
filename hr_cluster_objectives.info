@@ -3,7 +3,7 @@ description = HumanitarianResponse - Cluster Objectives
 core = 7.x
 package = Humanitarianresponse
 version = 7.x-1.0
-project = humanitarianresponse_cluster_obj
+project = hr_cluster_objectives
 features[features_api][] = api:1
 dependencies[] = autosave
 dependencies[] = ctools
@@ -34,4 +34,11 @@ features[variable][] = node_submitted_cluster_objectives
 features[views_view][] = cluster_objectives
 
 
+
+
+
+; Information added by drush on 2012-07-17
+version = "master-dev"
+project = "hr_cluster_objectives"
+datestamp = "1342528276"
 

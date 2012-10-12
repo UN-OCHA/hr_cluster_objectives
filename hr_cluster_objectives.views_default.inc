@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * humanitarianresponse_cluster_obj.views_default.inc
+ * hr_cluster_objectives.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function humanitarianresponse_cluster_obj_views_default_views() {
+function hr_cluster_objectives_views_default_views() {
   $export = array();
 
   $view = new view;

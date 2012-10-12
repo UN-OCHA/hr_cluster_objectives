@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * humanitarianresponse_cluster_obj.strongarm.inc
+ * hr_cluster_objectives.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function humanitarianresponse_cluster_obj_strongarm() {
+function hr_cluster_objectives_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

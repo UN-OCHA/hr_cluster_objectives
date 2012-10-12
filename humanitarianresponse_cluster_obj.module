@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the humanitarianresponse_cluster_obj feature.
- */
-
-include_once 'humanitarianresponse_cluster_obj.features.inc';

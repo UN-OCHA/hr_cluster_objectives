@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the hr_cluster_objectives feature.
+ */
+
+include_once 'hr_cluster_objectives.features.inc';

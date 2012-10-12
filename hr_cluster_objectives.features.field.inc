@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * humanitarianresponse_cluster_obj.features.field.inc
+ * hr_cluster_objectives.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function humanitarianresponse_cluster_obj_field_default_fields() {
+function hr_cluster_objectives_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-cluster_objectives-field_cluster'.
