@@ -2,8 +2,6 @@ name = HumanitarianResponse Cluster Objectives
 description = HumanitarianResponse - Cluster Objectives
 core = 7.x
 package = Humanitarianresponse
-version = 7.x-1.0
-project = hr_cluster_objectives
 features[features_api][] = api:1
 dependencies[] = autosave
 dependencies[] = ctools
@@ -32,13 +30,11 @@ features[variable][] = node_options_cluster_objectives
 features[variable][] = node_preview_cluster_objectives
 features[variable][] = node_submitted_cluster_objectives
 features[views_view][] = cluster_objectives
+l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
+l10n server = localize.humanitarianresponse.info
+l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
 
-
-
-
-
-; Information added by drush on 2012-07-17
 version = "master-dev"
 project = "hr_cluster_objectives"
-datestamp = "1342528276"
+datestamp = "1342528393"
 
