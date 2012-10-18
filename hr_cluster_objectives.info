@@ -2,7 +2,7 @@ name = HumanitarianResponse Cluster Objectives
 description = HumanitarianResponse - Cluster Objectives
 core = 7.x
 package = Humanitarianresponse
-features[features_api][] = api:1
+php = 5.2.4
 dependencies[] = autosave
 dependencies[] = ctools
 dependencies[] = entityreference
@@ -13,9 +13,15 @@ dependencies[] = strongarm
 dependencies[] = taxonomy
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
 features[field][] = node-cluster_objectives-field_cluster
 features[field][] = node-cluster_objectives-field_obj_desc
 features[node][] = cluster_objectives
+features[user_permission][] = create cluster_objectives content
+features[user_permission][] = delete any cluster_objectives content
+features[user_permission][] = delete own cluster_objectives content
+features[user_permission][] = edit any cluster_objectives content
+features[user_permission][] = edit own cluster_objectives content
 features[variable][] = autosave_cluster_objectives
 features[variable][] = comment_anonymous_cluster_objectives
 features[variable][] = comment_cluster_objectives
@@ -33,6 +39,3 @@ features[views_view][] = cluster_objectives
 l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
 l10n server = localize.humanitarianresponse.info
 l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
-
-
-

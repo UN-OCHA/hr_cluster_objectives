@@ -18,6 +18,9 @@ function hr_cluster_objectives_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_cluster',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
@@ -40,6 +43,8 @@ function hr_cluster_objectives_field_default_fields() {
             'parent' => '0',
           ),
         ),
+        'entity_translation_sync' => FALSE,
+        'options_list_callback' => '',
       ),
       'translatable' => '0',
       'type' => 'taxonomy_term_reference',
@@ -53,7 +58,10 @@ function hr_cluster_objectives_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'taxonomy',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'taxonomy_term_reference_link',
           'weight' => 1,
         ),
@@ -117,7 +125,10 @@ function hr_cluster_objectives_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'text_default',
           'weight' => 2,
         ),
@@ -155,4 +166,3 @@ function hr_cluster_objectives_field_default_fields() {
 
   return $fields;
 }
-

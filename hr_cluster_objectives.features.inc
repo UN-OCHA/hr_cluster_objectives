@@ -37,4 +37,3 @@ function hr_cluster_objectives_node_info() {
   );
   return $items;
 }
-

@@ -107,4 +107,3 @@ function hr_cluster_objectives_strongarm() {
 
   return $export;
 }
-
