@@ -30,6 +30,7 @@ features[variable][] = comment_default_per_page_cluster_objectives
 features[variable][] = comment_form_location_cluster_objectives
 features[variable][] = comment_preview_cluster_objectives
 features[variable][] = comment_subject_field_cluster_objectives
+features[variable][] = language_content_type_cluster_objectives
 features[variable][] = menu_options_cluster_objectives
 features[variable][] = menu_parent_cluster_objectives
 features[variable][] = node_options_cluster_objectives
