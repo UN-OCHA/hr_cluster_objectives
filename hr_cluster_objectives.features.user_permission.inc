@@ -60,5 +60,15 @@ function hr_cluster_objectives_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: view any unpublished cluster_objectives content.
+  $permissions['view any unpublished cluster_objectives content'] = array(
+    'name' => 'view any unpublished cluster_objectives content',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'manager',
+    ),
+    'module' => 'view_unpublished',
+  );
+
   return $permissions;
 }
