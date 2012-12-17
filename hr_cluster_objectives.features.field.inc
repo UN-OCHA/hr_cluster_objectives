@@ -63,7 +63,7 @@ function hr_cluster_objectives_field_default_fields() {
             'diff_custom_settings' => array(),
           ),
           'type' => 'taxonomy_term_reference_link',
-          'weight' => 1,
+          'weight' => '1',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -130,7 +130,7 @@ function hr_cluster_objectives_field_default_fields() {
             'diff_custom_settings' => array(),
           ),
           'type' => 'text_default',
-          'weight' => 2,
+          'weight' => '2',
         ),
         'teaser' => array(
           'label' => 'above',
