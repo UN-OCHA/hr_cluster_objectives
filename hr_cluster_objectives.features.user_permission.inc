@@ -14,8 +14,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['create cluster_objectives content'] = array(
     'name' => 'create cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -24,8 +24,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['delete any cluster_objectives content'] = array(
     'name' => 'delete any cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -34,8 +34,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['delete own cluster_objectives content'] = array(
     'name' => 'delete own cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -44,8 +44,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['edit any cluster_objectives content'] = array(
     'name' => 'edit any cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -54,8 +54,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['edit own cluster_objectives content'] = array(
     'name' => 'edit own cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -64,8 +64,8 @@ function hr_cluster_objectives_user_default_permissions() {
   $permissions['view any unpublished cluster_objectives content'] = array(
     'name' => 'view any unpublished cluster_objectives content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'view_unpublished',
   );

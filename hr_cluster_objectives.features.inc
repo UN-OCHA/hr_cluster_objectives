@@ -18,7 +18,7 @@ function hr_cluster_objectives_ctools_plugin_api() {
  * Implements hook_views_api().
  */
 function hr_cluster_objectives_views_api() {
-  return array("version" => "3.0");
+  return array("api" => "3.0");
 }
 
 /**
